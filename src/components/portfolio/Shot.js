@@ -23,7 +23,7 @@ const Shot = () => {
         </div>
         <div className="w-full md:w-auto my-9">
           <iframe
-            className="w-full h-[auto] md:w-[880px] md:h-[500px]"
+            className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
             src="https://www.youtube.com/embed/6FsWExmENe0?si=a5HftSiknQVkT6hA"
             title="YouTube video player"
             frameborder="0"
@@ -33,7 +33,7 @@ const Shot = () => {
         </div>
         <div className="w-full md:w-auto my-9">
           <iframe
-            className="w-full h-[auto] md:w-[880px] md:h-[500px]"
+            className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
             src="https://www.youtube.com/embed/f2I27LUrvD0?si=HbxOByMwla99UQdO"
             title="YouTube video player"
             frameborder="0"
@@ -43,7 +43,7 @@ const Shot = () => {
         </div>
         <div className="w-full md:w-auto">
           <iframe
-            className="w-full h-[auto] md:w-[880px] md:h-[500px]"
+            className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
             src="https://www.youtube.com/embed/rKA_K_qgc9w?si=NxK15y1DJgnyyQOy"
             title="YouTube video player"
             frameborder="0"
