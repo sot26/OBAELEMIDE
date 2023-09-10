@@ -14,16 +14,16 @@ const buttonVariant = {
 };
 const Edit = () => {
   return (
-    <div className="w-full h-auto flex  justify-center my-3">
-      <div className="w-full md:w-auto">
-        <div className="my-4">
-          <p className="text-lg md:text-xl font-bold">
+    <div className="w-full h-auto flex  justify-center md:my-3">
+      <div className="w-full md:w-auto px-6 md:px-0">
+        <div className="md:my-4">
+          <p className="text-sm md:text-xl font-bold mb-3">
             These are few videos edited by Me
           </p>
         </div>
         <div className="w-full md:w-auto">
           <iframe
-            className="w-full h-[auto] md:w-[880px] md:h-[500px]"
+            className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
             src="https://www.youtube.com/embed/i_FPOCTWdJ8?si=UcMOGWK4gRS-fEFM"
             title="YouTube video player"
             frameborder="0"
