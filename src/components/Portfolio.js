@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className="w-full md:w-auto">
           <div className="my-2 md:my-4">
             <p className="text-[15px] sm:text-lg md:text-xl font-bold">
-              These are few videos i've worked on
+              Here are a few of my previous projects
             </p>
           </div>
           <div className="w-full md:w-auto my-3 md:my-9">
