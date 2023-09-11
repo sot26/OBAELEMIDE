@@ -4,7 +4,7 @@ import about from "../asset/about.mp4";
 const About = () => {
   return (
     <div className="w-full h-auto" name="About">
-      <div className="flex flex-col justify-center items-center h-full my-12 lg:m-0 px-[15px]">
+      <div className="flex flex-col justify-center items-center h-full my-6 md:py-12 lg:m-0 px-[15px]">
         <div className="flex flex-col lg:flex-row justify-center items-center text-center">
           <div className="lg:mr-[85px] flex items-center justify-center w-[80%] lg:w-[35%]  video-container">
             <video

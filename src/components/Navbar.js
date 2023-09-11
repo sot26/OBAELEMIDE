@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../asset/logo.png";
+import { motion } from "framer-motion";
 // import Slide from "react-reveal/Slide";
 
 function Navbar() {
@@ -60,7 +61,7 @@ function Navbar() {
             href="/"
             className="flex justify-center items-center hover:text-[#147EFB]"
           >
-            <img src={logo} className="h-[25px] md:h-[30px] w-auto" />
+            <img src={logo} className="h-[18px] md:h-[30px] w-auto" />
           </a>
         </div>
 
@@ -89,12 +90,12 @@ function Navbar() {
             </li>
             <li className="px-3 cursor-pointer text-[17px] font-semibold hover:scale-110 duration-500 hover:text-[#147EFB] ">
               <Link
-                to="Projects"
+                to="Portfolio"
                 smooth={true}
                 duration={500}
                 className="flex items-center justify-center"
               >
-                <p className="pl-2">Projetcs</p>
+                <p className="pl-2">Portfolio</p>
               </Link>
             </li>
             <li className="px-3 cursor-pointer text-[17px] font-semibold hover:scale-110 duration-500 hover:text-[#147EFB] ">
@@ -123,7 +124,7 @@ function Navbar() {
 
         {/* mobile menu */}
         {/* <Slide right> */}
-        <div
+        <motion.div
           className={
             !nav
               ? "hidden"
@@ -131,7 +132,7 @@ function Navbar() {
           }
         >
           <div
-            className="w-[55%] bg-opacity-[5%] bg-black"
+            className="w-[55%] bg-opacity-[25%] bg-black"
             onClick={navClick}
           ></div>
           <ul className="w-[45%] pl-8 py-10 bg-white">
@@ -148,11 +149,11 @@ function Navbar() {
             <li className="py-6 text-1xl">
               <Link
                 onClick={navClick}
-                to="Projects"
+                to="Portfolio"
                 smooth={true}
                 duration={500}
               >
-                <span className="cursor-pointer"> Projetcs </span>
+                <span className="cursor-pointer"> Portfolio </span>
               </Link>
             </li>
             <li className="py-6 text-1xl">
@@ -166,7 +167,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-        </div>
+        </motion.div>
         {/* </Slide> */}
       </header>
     </div>
