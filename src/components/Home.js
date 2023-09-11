@@ -84,7 +84,7 @@ const Home = () => {
             <div className="w-[65px] h-[65px] mr-6" title="After Effect">
               <img src={ae} className="w-full h-full" />
             </div>
-            <div className="w-auto h-[80px] " title="Davinci Resolve">
+            <div className="w-[80px] h-[80px] " title="Davinci Resolve">
               <img src={davinci} className="w-full h-full" />
             </div>
           </div>
