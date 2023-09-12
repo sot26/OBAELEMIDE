@@ -31,8 +31,8 @@ const Home = () => {
               </p>
             </div>
             <p className="md:font-medium text-[18px] mb-[25px] ">
-              Hi, Oluwatimilehin Elemide. A Video Editor and Videographer
-              {/* 📷 */}, driven by creativity 🎨 and magination 💡.
+              Hi, I am Oluwatimilehin Elemide. A Video Editor and Videographer ,
+              driven by Creativity 🎨 and Imagination 💡.
             </p>
             <div className="text-[30px] flex gap-[12px] justify-center lg:justify-normal">
               <a
