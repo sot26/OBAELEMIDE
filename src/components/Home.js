@@ -27,12 +27,12 @@ const Home = () => {
             <div className=" font-extrabold mb-[19px] w-full">
               <p className="w-full ">Video Editor & </p>
               <p className="flex h-full w-full items-center justify-center lg:justify-normal mt-[-10px] ">
-                Videographer📷
+                Videographer
               </p>
             </div>
             <p className="md:font-medium text-[18px] mb-[25px] ">
-              Hi, Oluwatimilehin Elemide. A Video Editor and Videographer 📷,
-              driven by creativity 🎨 and magination 💡.
+              Hi, Oluwatimilehin Elemide. A Video Editor and Videographer
+              {/* 📷 */}, driven by creativity 🎨 and magination 💡.
             </p>
             <div className="text-[30px] flex gap-[12px] justify-center lg:justify-normal">
               <a
