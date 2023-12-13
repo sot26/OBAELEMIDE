@@ -30,6 +30,16 @@ const Portfolio = () => {
           <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/Qnbv_vj6IQI?si=lM4JCAgakrBtoG1u"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/FDlrkFs84eo?si=Xv16bt0atIJ3PKmD"
               title="YouTube video player"
               frameborder="0"

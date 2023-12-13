@@ -28,14 +28,12 @@ const About = () => {
             </p>
             <p className="md:text-[17px] text-[15px] font-medium text-[#767676]">
               I'm Elemide Oluwatimilehin, a highly experienced video editor and
-              videographer with 3+ years in the field. I've created captivating
-              content for Instagram Reels, YouTube, and TikTok. Previously, I
-              freelanced for 2 years and worked for Edekee as a Video Editor and
-              Videographer. I excel in Instagram Reels, YouTube Shorts, TikTok,
-              and use Adobe Premiere Pro and After Effects. Eager to learn and
-              based in Lagos, Nigeria 📍. I'm seeking innovative video
-              production opportunities. Let's collaborate for something amazing!
-              🤩
+              videographer with 3+ years in the field. I create captivating
+              content for clients on different platforms such as, Instagram
+              Reels, YouTube(Shorts), and TikTok. I excel in the use of Adobe
+              Premiere Pro and After Effects. I'm Eager to learn and based in
+              Lagos, Nigeria 📍. I'm seeking innovative video production
+              opportunities. Let's collaborate for something amazing! 🤩
             </p>
           </div>
         </div>
