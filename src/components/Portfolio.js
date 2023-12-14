@@ -22,35 +22,30 @@ const Portfolio = () => {
       </div>
       <div className="w-full h-auto flex justify-center md:my-3 px-3">
         <div className="w-full md:w-auto">
-          <div className="my-2 md:my-4">
-            <p className="text-[15px] sm:text-lg md:text-xl font-bold">
-              Here are a few of my previous projects
+          <div className="my-2 md:my-4 flex flex-col justify-center items-center">
+            <p className="text-[15px] sm:text-lg md:text-xl font-bold text-center">
+              Here are a few of my previous projects, or click the view more
+              button to view more{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/drive/folders/1-0IgtbYwBbhkdfkds0BUmhHPy1CgScks"
+                className="flex justify-center items-center"
+              >
+                <motion.button
+                  className="p-2 mt-3 text-lg  border-2 rounded-xl border-[#147EFB] bg-[#147EFB] text-white"
+                  variants={buttonVariant}
+                  animate="hover"
+                >
+                  View more >>>
+                </motion.button>
+              </a>
             </p>
           </div>
           <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/Qnbv_vj6IQI?si=lM4JCAgakrBtoG1u"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/FDlrkFs84eo?si=Xv16bt0atIJ3PKmD"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div className="w-full md:w-auto my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/i_FPOCTWdJ8?si=UcMOGWK4gRS-fEFM"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -67,20 +62,30 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto my-9">
+          <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/rKA_K_qgc9w?si=NxK15y1DJgnyyQOy"
+              src="https://www.youtube.com/embed/l_AJvGM1anE?si=q-W8za1euZqxPfmM"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto">
+          <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/apLlmCV9pjk?si=mG0z5qeMlyd9cYrW"
+              src="https://www.youtube.com/embed/i_FPOCTWdJ8?si=UcMOGWK4gRS-fEFM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/FDlrkFs84eo?si=Xv16bt0atIJ3PKmD"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -95,9 +100,9 @@ const Portfolio = () => {
             className="flex justify-center items-center"
           >
             <motion.button
-              className="p-2 my-6  border-b-2 border-[#147EFB] text-black"
+              className="p-2 my-3 text-lg  border-2 rounded-xl border-[#147EFB] bg-[#147EFB] text-white"
               variants={buttonVariant}
-              whileHover="hover"
+              animate="hover"
             >
               View more >>>
             </motion.button>
