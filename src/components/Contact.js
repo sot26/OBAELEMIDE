@@ -1,9 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { BiMailSend } from "react-icons/bi";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
 import { InlineWidget } from "react-calendly";
 
 const Contact = () => {
