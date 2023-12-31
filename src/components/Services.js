@@ -2,7 +2,7 @@ import React from "react";
 import { FiEdit } from "react-icons/fi";
 import { TbMessages } from "react-icons/tb";
 import { IoVideocamOutline } from "react-icons/io5";
-import { GiLaptop } from "react-icons/gi";
+import { LuLaptop2 } from "react-icons/lu";
 
 const Services = () => {
   return (
@@ -37,7 +37,7 @@ const Services = () => {
 
         <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black  bg-white">
           <p className="my-3">
-            <GiLaptop size={35} />
+            <LuLaptop2 size={35} />
           </p>
           <p className="text-xl font-bold mb-3">Video Editing</p>
           <p className="text-center mb-3 font-medium">
