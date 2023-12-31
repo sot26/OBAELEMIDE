@@ -90,6 +90,16 @@ function Navbar() {
             </li>
             <li className="px-3 cursor-pointer text-[17px] font-semibold hover:scale-110 duration-500 hover:text-[#147EFB] ">
               <Link
+                to="Services"
+                smooth={true}
+                duration={500}
+                className="flex items-center justify-center"
+              >
+                <p className="pl-2">Services</p>
+              </Link>
+            </li>
+            <li className="px-3 cursor-pointer text-[17px] font-semibold hover:scale-110 duration-500 hover:text-[#147EFB] ">
+              <Link
                 to="Portfolio"
                 smooth={true}
                 duration={500}
@@ -144,6 +154,16 @@ function Navbar() {
             <li className="py-6 text-1xl">
               <Link onClick={navClick} to="About" smooth={true} duration={500}>
                 <span className="cursor-pointer">About</span>
+              </Link>
+            </li>
+            <li className="py-6 text-1xl">
+              <Link
+                onClick={navClick}
+                to="Services"
+                smooth={true}
+                duration={500}
+              >
+                <span className="cursor-pointer"> Services </span>
               </Link>
             </li>
             <li className="py-6 text-1xl">

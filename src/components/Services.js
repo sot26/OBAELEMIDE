@@ -12,6 +12,28 @@ const Services = () => {
         </p>
       </div>
       <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-6">
+        <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black bg-white mb-8 md:mb-0">
+          <p className="my-3">
+            <IoVideocamOutline size={35} />
+          </p>
+          <p className="text-xl font-bold mb-3">Videography</p>
+          <p className="text-center mb-3 font-medium">
+            Crafting stunning visual stories across diverse categories:
+            Weddings, Events, Commercials, Music Videos, Documentaries, and
+            more. Let visuals speak volumes.
+          </p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://forms.gle/e6Xys8hVZbAskTgJ6"
+            className="flex justify-center items-center"
+          >
+            <button className="font-semibold text-[13px] border-[1px] rounded-xl px-3 py-2 border-black mb-3 hover:bg-white hover:text-black bg-black text-white ">
+              GET A QUOTE
+            </button>
+          </a>
+        </div>
+
         <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black  bg-white">
           <p className="my-3">
             <FiEdit size={35} />
@@ -56,27 +78,6 @@ const Services = () => {
           </a>
         </div>
 
-        <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black bg-white mb-8 md:mb-0">
-          <p className="my-3">
-            <IoVideocamOutline size={35} />
-          </p>
-          <p className="text-xl font-bold mb-3">Videography</p>
-          <p className="text-center mb-3 font-medium">
-            Crafting stunning visual stories across diverse categories:
-            Weddings, Events, Commercials, Music Videos, Documentaries, and
-            more. Let visuals speak volumes.
-          </p>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://forms.gle/e6Xys8hVZbAskTgJ6"
-            className="flex justify-center items-center"
-          >
-            <button className="font-semibold text-[13px] border-[1px] rounded-xl px-3 py-2 border-black mb-3 hover:bg-white hover:text-black bg-black text-white ">
-              GET A QUOTE
-            </button>
-          </a>
-        </div>
         {/* <div className="w-[200px]">
           <IoVideocamOutline />
           <p>

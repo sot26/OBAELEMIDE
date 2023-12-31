@@ -12,7 +12,7 @@ const Contact = () => {
       className="w-full h-full flex justify-center items-center bg-[#f9f9f9] "
       name="Contact"
     >
-      <div className="w-full  h-full py-[30px] px-[20px] lg:px-[50px]">
+      <div className="w-full py-[30px] px-[20px] lg:px-[50px]">
         <div className="w-full flex flex-col justify-center items-center">
           <p className="text-[#ff0000] text-[25px] font-bold mb-[10px] text-center md:text-left">
             CONTACT
@@ -21,11 +21,8 @@ const Contact = () => {
             Hit me up! 👇
           </p>
         </div>
-        <div className="w-auto h-fit">
-          <InlineWidget
-            className=""
-            url="https://calendly.com/kingelemide/30min"
-          />
+        <div className="calendly">
+          <InlineWidget url="https://calendly.com/kingelemide/30min" />
         </div>
         <div className="flex flex-col md:flex-row justify-center my-5 gap-6 md:gap-12">
           <div className="flex flex-wrap gap-8">
