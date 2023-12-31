@@ -14,18 +14,18 @@ const Portfolio = () => {
     },
   };
   return (
-    <div className="w-full h-auto bg-[#f9f9f9] " name="Portfolio">
-      <div className="w-full h-auto my-2 md:my-[11px] ">
-        <p className="font-bold text-[25px] text-[#ff0000] flex justify-center pt-6 md:pt-10 ">
+    <div className="w-full h-auto " name="Portfolio">
+      <div className="w-full h-auto py-2 md:my-[11px] ">
+        <p className="font-bold text-[25px] text-[#ff0000] flex justify-center pt-6 md:pt-6 ">
           PORTFOLIO
         </p>
       </div>
       <div className="w-full h-auto flex justify-center md:my-3 px-3">
         <div className="w-full md:w-auto">
-          <div className="my-2 md:my-4 flex flex-col justify-center items-center">
+          <div className=" flex flex-col justify-center items-center">
             <p className="text-[15px] sm:text-lg md:text-xl font-bold text-center">
               Here are a few of my previous projects, or click the view more
-              button to view more{" "}
+              button to view more
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -100,7 +100,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noreferrer"
             href="https://drive.google.com/drive/folders/1-0IgtbYwBbhkdfkds0BUmhHPy1CgScks"
-            className="flex justify-center items-center"
+            className="flex justify-center items-center mb-6"
           >
             {/* <motion.button
               className="p-2 my-3 text-lg  border-2 rounded-xl border-[#147EFB] bg-[#147EFB] text-white"

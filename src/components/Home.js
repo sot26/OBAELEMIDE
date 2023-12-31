@@ -30,7 +30,7 @@ const Home = () => {
                 Videographer
               </p>
             </div>
-            <p className="md:font-medium text-[18px] mb-[25px] ">
+            <p className="md:font-medium text-[18px] mb-[25px]">
               Hi, I am Oluwatimilehin Elemide. A Video Editor and Videographer ,
               driven by Creativity 🎨 and Imagination 💡.
             </p>
@@ -51,19 +51,19 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className=" flex justify-center lg:justify-normal rounded-xl md:border-[5px] border-black">
+          <div className=" flex justify-center lg:justify-normal rounded-xl lg:border-[5px] border-black">
             <motion.img
               variants={imgvariant}
               animate="visible"
               whileHover="hover"
               src={me}
               alt="my-pic"
-              className="hidden md:flex  h-[300px] w-auto md:h-[400px] my-4 md:my-0  rounded-lg border-black"
+              className="hidden lg:flex  h-[300px] w-auto md:h-[400px] my-4 md:my-0  rounded-lg border-black"
             />
             <motion.img
               src={me}
               alt="my-pic"
-              className="flex md:hidden   h-[300px] w-auto md:h-[400px] my-4 md:my-0  rounded-lg border-black"
+              className="flex lg:hidden   h-[300px] w-auto md:h-[400px] my-4 md:my-0  rounded-lg border-black"
             />
           </div>
         </div>

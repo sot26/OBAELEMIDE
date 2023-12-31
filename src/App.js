@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Services />
       <Portfolio />
       <Contact />
       <Footer />
