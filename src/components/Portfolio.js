@@ -20,7 +20,7 @@ const Portfolio = () => {
           PORTFOLIO
         </p>
       </div>
-      <div className="w-full h-auto flex justify-center md:my-3 px-3">
+      <div className="w-full h-auto flex justify-center md:mt-3 px-3">
         <div className="w-full md:w-auto">
           <div className=" flex flex-col justify-center items-center">
             <p className="text-[15px] sm:text-lg md:text-xl font-bold text-center">
@@ -33,13 +33,8 @@ const Portfolio = () => {
                 className="flex justify-center items-center"
               >
                 <motion.button variants={buttonVariant} animate="hover">
-                  <button class="relative border hover:border-sky-600 mt-3 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-12 w-auto px-6 rounded-md text-lg bg-sky-800  flex justify-center items-center ">
-                    <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
-                    <div className="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
-                    <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-                    <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
-                    <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
-                    <p className="z-10">View More >>></p>
+                  <button className="font-semibold text-[13px] border-[1px] rounded-xl px-4 mt-3 py-2 border-black mb-3 hover:bg-white hover:text-black bg-black text-white ">
+                    VIEW MORE >>>
                   </button>
                 </motion.button>
               </a>
@@ -110,13 +105,8 @@ const Portfolio = () => {
               View more >>>
             </motion.button> */}
             <motion.button variants={buttonVariant} animate="hover">
-              <button class="relative border hover:border-sky-600 mt-3 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-12 w-auto px-6 rounded-md text-lg bg-sky-800  flex justify-center items-center ">
-                <div className="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
-                <div className="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
-                <div className="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
-                <div className="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
-                <div className="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
-                <p className="z-10">View More >>></p>
+              <button className="font-semibold text-[13px]  border-[1px] rounded-xl px-4 mt-3 py-3 border-black mb-3 hover:bg-white hover:text-black bg-black text-white ">
+                VIEW MORE >>>
               </button>
             </motion.button>
           </a>
