@@ -13,7 +13,7 @@ const Services = () => {
         </p>
       </div>
       <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center gap-6">
-        <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black bg-white mb-8 md:mb-0">
+        <div className="w-[300px] border-[1px] rounded-xl px-2 py-4 flex flex-col justify-center items-center border-black bg-white mb-8">
           <p className="my-3">
             <IoVideocamOutline size={35} />
           </p>
