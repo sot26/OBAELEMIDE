@@ -8,12 +8,15 @@ import Portfolio from "./components/Portfolio";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Services from "./components/Services";
+import Headroom from "react-headroom";
 
 function App() {
   return (
     <div>
       <ToastContainer />
-      <Navbar />
+      <Headroom>
+        <Navbar />
+      </Headroom>
       <Home />
       <About />
       <Services />
