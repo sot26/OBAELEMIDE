@@ -100,15 +100,6 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://files.fm/f/vnabzuy4yj"
-              title="YouTube video player"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
 
           <a
             target="_blank"
