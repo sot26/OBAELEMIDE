@@ -78,7 +78,7 @@ const Home = () => {
             <div className="w-[65px] h-[65px] mr-6" title="Adobe Premier Pro">
               <img src={ppro} className="w-full h-full" />
             </div>
-            <div className="w-[65px] h-[65px] mr-6" title="Photo Shop">
+            <div className="w-[65px] h-[65px] mr-6" title="Adobe Photo Shop">
               <img src={ps} className="w-full h-full" />
             </div>
             <div className="w-[65px] h-[65px] mr-6" title="After Effect">

@@ -26,7 +26,7 @@ const Portfolio = () => {
             <p className="text-[15px] sm:text-lg md:text-xl font-bold text-center">
               Here are a few of my previous projects, or click the view more
               button to view more
-              <a
+              {/* <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://drive.google.com/drive/folders/1-0IgtbYwBbhkdfkds0BUmhHPy1CgScks"
@@ -37,7 +37,7 @@ const Portfolio = () => {
                     VIEW MORE >>>
                   </button>
                 </motion.button>
-              </a>
+              </a> */}
             </p>
           </div>
           <div className="w-full md:w-auto my-3 md:my-9">
@@ -53,7 +53,7 @@ const Portfolio = () => {
           <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/f3KvNG95FDI?si=W8rp4CnI2y2pLsI1"
+              src="https://www.youtube.com/embed/VWb1M1hjKHQ?si=DElmj6BdWUYlOP6z"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -63,7 +63,7 @@ const Portfolio = () => {
           <div className="w-full md:w-auto my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/f2I27LUrvD0?si=HbxOByMwla99UQdO"
+              src="https://www.youtube.com/embed/SJUbvS62BWs?si=5fHL0fc2xN5txG27"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -73,14 +73,14 @@ const Portfolio = () => {
           <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/l_AJvGM1anE?si=q-W8za1euZqxPfmM"
+              src="https://www.youtube.com/embed/pOmQQIjY-Xg?si=ozoVAbSSt-a7CUWq"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
+          {/* <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/i_FPOCTWdJ8?si=UcMOGWK4gRS-fEFM"
@@ -99,27 +99,27 @@ const Portfolio = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-          </div>
+          </div> */}
 
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://drive.google.com/drive/folders/1-0IgtbYwBbhkdfkds0BUmhHPy1CgScks"
             className="flex justify-center items-center mb-6"
-          >
-            {/* <motion.button
-              className="p-2 my-3 text-lg  border-2 rounded-xl border-[#147EFB] bg-[#147EFB] text-white"
+          > */}
+          {/* <motion.button
+              {/* className="p-2 my-3 text-lg  border-2 rounded-xl border-[#147EFB] bg-[#147EFB] text-white"
               variants={buttonVariant}
               animate="hover"
             >
               View more >>>
             </motion.button> */}
-            <motion.button variants={buttonVariant} animate="hover">
+          {/* <motion.button variants={buttonVariant} animate="hover">
               <button className="font-semibold text-[13px]  border-[1px] rounded-xl px-4 mt-3 py-3 border-black mb-3 hover:bg-white hover:text-black bg-black text-white ">
                 VIEW MORE >>>
               </button>
             </motion.button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
