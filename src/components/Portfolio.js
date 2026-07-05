@@ -40,6 +40,26 @@ const Portfolio = () => {
               </a> */}
             </p>
           </div>
+    <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/hBrdWpnycrw?si=Kn-Y1uL9c4FdDBNE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+                  <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/jkV5dBcF2ZE?si=8WD03rYsrNEUrBJj"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
           <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
@@ -70,26 +90,8 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/pOmQQIjY-Xg?si=ozoVAbSSt-a7CUWq"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/I8STnvNpsgU?si=Hcktv5BMhoPKLukF"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
+        
+        
           {/* <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
