@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import land1 from "../asset/land1.jpeg";
+import por1 from "../asset/por1.jpeg";
+import land2 from "../asset/land2.png";
+import por2 from "../asset/por2.jpeg";
 const Portfolio = () => {
   const buttonVariant = {
     hover: {
@@ -40,7 +43,7 @@ const Portfolio = () => {
               </a> */}
             </p>
           </div>
-   <div className="w-full md:w-auto my-3 md:my-9">
+          <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/VWb1M1hjKHQ?si=DElmj6BdWUYlOP6z"
@@ -50,7 +53,7 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-    <div className="w-full md:w-auto my-3 md:my-9">
+          <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/hBrdWpnycrw?si=Kn-Y1uL9c4FdDBNE"
@@ -60,7 +63,37 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-                  <div className="w-full md:w-auto my-3 md:my-9">
+          <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/jkV5dBcF2ZE?si=8WD03rYsrNEUrBJj"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/VWb1M1hjKHQ?si=DElmj6BdWUYlOP6z"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/hBrdWpnycrw?si=Kn-Y1uL9c4FdDBNE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
               src="https://www.youtube.com/embed/jkV5dBcF2ZE?si=8WD03rYsrNEUrBJj"
@@ -80,7 +113,7 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-         
+
           <div className="w-full md:w-auto my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
@@ -91,8 +124,41 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-        
-        
+
+          <div className="w-full md:w-auto my-9">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/reel/DNxwDQCwpPV/?igsh=NjQ1azNmajAwN2Y1"
+            >
+              <img
+                className="w-full hidden md:flex md:w-[700px] lg:w-[880px] sm:h-[500px] object-cover"
+                src={land1}
+              />
+              <img
+                className="w-full h-[400px] md:hidden sm:h-[500px] object-cover "
+                src={por1}
+              />
+            </a>
+          </div>
+
+          <div className="w-full md:w-auto my-9">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/reel/DNk5JsboNWW/?igsh=MWJmZzU0aWtybG9zMg=="
+            >
+              <img
+                className="w-full hidden md:flex md:w-[700px] lg:w-[880px] sm:h-[500px] object-cover"
+                src={land2}
+              />
+              <img
+                className="w-full h-[400px] md:hidden sm:h-[500px] object-cover "
+                src={por2}
+              />
+            </a>
+          </div>
+
           {/* <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
