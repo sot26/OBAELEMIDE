@@ -40,6 +40,16 @@ const Portfolio = () => {
               </a> */}
             </p>
           </div>
+   <div className="w-full md:w-auto my-3 md:my-9">
+            <iframe
+              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
+              src="https://www.youtube.com/embed/VWb1M1hjKHQ?si=DElmj6BdWUYlOP6z"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
     <div className="w-full md:w-auto my-3 md:my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
@@ -70,16 +80,7 @@ const Portfolio = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="w-full md:w-auto my-3 md:my-9">
-            <iframe
-              className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
-              src="https://www.youtube.com/embed/VWb1M1hjKHQ?si=DElmj6BdWUYlOP6z"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
+         
           <div className="w-full md:w-auto my-9">
             <iframe
               className="w-full h-[400px] md:w-[700px] lg:w-[880px] sm:h-[500px] "
